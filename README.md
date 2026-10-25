@@ -106,14 +106,3 @@ diversity regularisation (`--memory_diversity updated --diversity_lambda_updated
 `--memory_init_norm`, and the `MemCtrl_TTSAD_Basic` decoder / retrieval
 variants. Runs are deterministic for a given seed and settings (fixed
 construction order, no data shuffling, no test-label use during training).
-
-## Citation
-
-```bibtex
-@mastersthesis{hussien2026memttsad,
-  author = {Talal Hussien},
-  title  = {Memory-Augmented Transformer Models for Time-Series Anomaly Detection},
-  school = {Ben-Gurion University of the Negev},
-  year   = {2026}
-}
-```
