@@ -1,8 +1,8 @@
 torch>=2.2
-numpy
+numpy<2        # preprocess.py (WADI) uses ndarray.ptp, removed in NumPy 2
 pandas
 scikit-learn
 scipy
 matplotlib
 tqdm
-openpyxl   # required by preprocess.py for the official SWaT .xlsx files
+openpyxl       # preprocess.py reads the official SWaT .xlsx files
