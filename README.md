@@ -117,8 +117,3 @@ construction order, no data shuffling, no test-label use during training).
   year   = {2026}
 }
 ```
-
-## License
-
-BSD 3-Clause (see `LICENSE`, which also lists the third-party code: TranAD,
-SPOT and OmniAnomaly's point adjustment).
