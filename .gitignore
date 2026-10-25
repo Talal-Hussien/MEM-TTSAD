@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Raw and preprocessed data (obtain separately, see README.md)
+data/
+processed/
+
+# Training artefacts
+checkpoints/
+*.ckpt
+plots/
+*.log
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+*:Zone.Identifier
